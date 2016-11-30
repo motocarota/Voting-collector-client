@@ -13,6 +13,8 @@ class App extends Component {
         </div>
         <div className='App-intro'>
           <Link to='/'> Home </Link>
+          <Link to='/results'> Results </Link>
+          <Link to='/voting'> Voting </Link>
           {this.props.children}
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Results ({ pair }) {
+  pair || (pair = [])
   return (
     <div>
       RRRResults!
