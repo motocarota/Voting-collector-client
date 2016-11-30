@@ -12,8 +12,8 @@ class App extends Component {
           <h2>Voting collector client</h2>
         </div>
         <div className='App-intro'>
-          <Link to='/'> Home </Link>
-          <Link to='/results'> Results </Link>
+          <Link to='/'> Home </Link> |
+          <Link to='/results'> Results </Link> |
           <Link to='/voting'> Voting </Link>
           {this.props.children}
         </div>
